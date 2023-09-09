@@ -1,27 +1,5 @@
 #include<iostream>
 using namespace std;
-// void removeDup(int arr[],int n){
-//     for(int i=0;i<n;i++){
-//         if(arr[i]==arr[i+1]){
-//             arr[i]=arr[i+1];
-//             n--;
-//         }
-//     }
-//     for(int i=0;i<n;i++){
-//         cout<<arr[i]<<" ";
-//     }
-// }
-// int removeDup(int arr[],int n){
-//     for(int i=0;i<n;i++){
-//         for(int j=i;j<n;j++){
-//             if(arr[i]!=arr[j]){
-//                 arr[i+1]=arr[j];
-//                 n--;       
-//             }
-//         }
-//     }
-//     return n;
-// }
 
 int removeDup(int arr[],int n){
     int i=0;
